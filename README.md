@@ -99,7 +99,7 @@ function in R. For example, if `X` is a square invertible matrix, then
 cacheSolve <- function(x, ...){
     inv_x <- x$getInverse()
     if(!is.null(inv_x)){
-        message(""Getting cached data."")
+        message("Getting cached data.")
         return inv_x
     }
     data <- x$get()
